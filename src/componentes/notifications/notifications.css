@@ -1,0 +1,30 @@
+.at-notifications {
+  min-height: 300px;
+  background-color: #393e46;
+  display: flex;
+  align-items: center;
+}
+
+.at-notifications.slick-slider {
+  overflow: hidden;
+}
+
+.at-report {
+  margin: 16px;
+  width: 340px;
+}
+
+.at-report-header svg {
+  font-size: 36px;
+}
+
+.at-report small {
+  font-size: 14px;
+}
+
+@media only screen and (min-width: 768px) {
+  .at-report {
+    width: 100%;
+    max-width: 480px;
+  }
+}

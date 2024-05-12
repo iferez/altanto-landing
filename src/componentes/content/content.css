@@ -1,0 +1,14 @@
+.at-content svg {
+  font-size: 100px;
+  color: #fd7014;
+}
+
+.at-content h3 {
+  color: #393e46;
+}
+
+@media only screen and (min-width: 992px) {
+  .at-content svg {
+    font-size: 150px;
+  }
+}
